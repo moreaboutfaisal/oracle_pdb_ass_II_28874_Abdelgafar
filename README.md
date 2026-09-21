@@ -47,7 +47,8 @@ CREATE PLUGGABLE DATABASE AB_PDB_28874
                        'C:\APP\ORADATA\ORCL\AB_PDB_28874\');
 ```
 
-![PDB creation command](screenshots/pdb_creation/task1_1_pdb_creation_command.png)
+<img width="885" height="295" alt="pdb_creation1" src="https://github.com/user-attachments/assets/b0654c63-2897-4c0e-a79b-be1110041cc2" />
+
 
 ### 1.2 — PDB Open State
 
@@ -61,7 +62,8 @@ SHOW PDBS;
 ALTER PLUGGABLE DATABASE AB_PDB_28874 SAVE STATE;
 ```
 
-![PDB open state](screenshots/pdb_creation/task1_2_pdb_open_state.png)
+<img width="872" height="477" alt="pdb open state1" src="https://github.com/user-attachments/assets/98d3b0f1-fb08-4b4d-bcf1-9eb1b86d982a" />
+
 
 ### 1.3 — User Created Inside the PDB
 
@@ -80,7 +82,8 @@ GRANT UNLIMITED TABLESPACE TO Abdelgafar_plsqlauca_28874;
 SELECT username FROM dba_users WHERE username LIKE '%PLSQLAUCA%';
 ```
 
-![User created inside the PDB](screenshots/pdb_creation/task1_3_user_created_inside_pdb.png)
+<img width="885" height="785" alt="user created inside pdb1" src="https://github.com/user-attachments/assets/bf87b06c-ce43-41eb-9680-b5f780098408" />
+
 
 ---
 
@@ -99,7 +102,8 @@ CREATE PLUGGABLE DATABASE AB_to_delete_pdb_28874
                        'C:\APP\ORADATA\ORCL\AB_TO_DELETE_PDB_28874\');
 ```
 
-![Temporary PDB creation](screenshots/pdb_creation/task2_1_pdb_creation.png)
+<img width="882" height="310" alt="pdb_creation2" src="https://github.com/user-attachments/assets/78ca44e1-922a-49af-ad16-5a11bdc34c57" />
+
 
 ### 2.2 — PDB Deletion (Command + Result)
 
@@ -112,7 +116,8 @@ DROP PLUGGABLE DATABASE AB_to_delete_pdb_28874 INCLUDING DATAFILES;
 SHOW PDBS;
 ```
 
-![Temporary PDB deletion](screenshots/pdb_deletion/task2_3_pdb_deletion.png)
+<img width="867" height="232" alt="pdb_deletion2" src="https://github.com/user-attachments/assets/0cb47f38-2df4-45b6-b4db-25b8fb982dad" />
+
 
 ---
 
@@ -135,7 +140,8 @@ Accessed via: `https://localhost:5502/em`
 Logged in as: `Abdelgafar_plsqlauca_28874`
 Container: `AB_PDB_28874`
 
-![EM Express dashboard](screenshots/oem_dashboard/task3_1_oem_dashboard.png)
+<img width="1917" height="911" alt="oem_dashboard3" src="https://github.com/user-attachments/assets/501bc119-a5c8-4a94-a1d8-84ed2dc8cfef" />
+
 
 ---
 
